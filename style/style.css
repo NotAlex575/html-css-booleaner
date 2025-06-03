@@ -1,5 +1,8 @@
 body{
-    margin: 0;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*qui si trova le dimensioni e il colore del pattern (in modo ripetuto
@@ -9,7 +12,7 @@ per evitare di inserire immagini*/
     background-image: url(/img/pattern.png);
     background-size: 600px 250px;
     background-repeat: repeat-x;
-    width: 2000px;
+
     height: 125px; 
 }
 
