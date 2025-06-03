@@ -7,23 +7,21 @@ body{
 
 /*qui si trova le dimensioni e il colore del pattern (in modo ripetuto
 per evitare di inserire immagini*/
-header{
+#pattern{
     background-color: rgb(60, 152, 226);
-    text-align: center;
     background-image: url(/img/pattern.png);
-    background-size: 600px 200px;
+    background-size: 600px 250px;
     background-repeat: repeat-x;
     width: 2000px;
-    height: 103px; 
+    height: 125px; 
 }
 
-
-
+/*Logo (aggiunto anche i margin per il posizionamento del logo)*/
 #logo{
-    text-align: left;
-    background-image: url(/img/logo.svg);
-    background-size: 200px 200px;
-
+    height: 60px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 5px;
 }
 
 main{
