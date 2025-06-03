@@ -24,24 +24,31 @@ per evitare di inserire immagini*/
 h1{
     margin-bottom: 1px;
 }
-p{
-    margin: 1px;
-}
+
+/*Posizionamento delle varie scritte e foto(per stare posizionate come nell'immagine
+dell'esercizio*/
 
 #scrittaIntroduzione{
     font-size:xx-large;
+    margin: 1px;
+}
+#distacco{
+    margin: 1px;
+}
+#distacco2{
+    margin-top: 1px;
 }
 #scrittAzzurra{
     color: rgb(99, 209, 209);
 }
 #scrittaGrigia{
-    color: gray;
+    color: gray
 }
 #scrittaData{
     font-size: small;
     color: gray;
+    margin: 1px;
 }
-
 section #img1{
     margin-top: 12px;
     width: 800px;
@@ -50,7 +57,23 @@ section #img2{
      margin-top: 12px;
     width: 684px;
 }
-
 #photoDescription{
     font-size: small;
+    margin: 1px;
+}
+/*EVIDENZIATORE*/
+#evidenziato{
+    background:#FFFF00; 
+}
+
+/*sezione tabella css*/
+table{
+    width: 100%;
+}
+thead{
+    background-color: rgb(41, 111, 190);
+    color: white;
+}
+#tbody1-3{
+    background-color: rgb(124, 178, 240);
 }
