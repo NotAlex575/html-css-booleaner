@@ -81,3 +81,8 @@ thead{
 th{
     width: 30%;
 }
+
+/*distacco tra main e footer*/
+#distacco3{
+    padding-top: 15px;
+}
