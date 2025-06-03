@@ -23,7 +23,6 @@ per evitare di inserire immagini*/
     margin-top: 50px;
     margin-left: 5px;
 }
-
 h1{
     margin-bottom: 1px;
 }
@@ -64,19 +63,21 @@ section #img2{
     font-size: small;
     margin: 1px;
 }
+
 /*EVIDENZIATORE*/
 #evidenziato{
     background:#FFFF00; 
 }
 
 /*sezione tabella css*/
-table{
-    width: 100%;
-}
 thead{
     background-color: rgb(41, 111, 190);
     color: white;
 }
 #tbody1-3{
     background-color: rgb(124, 178, 240);
+}
+/*DIMENSIONE LATERALE DELLA TABELLA*/
+th{
+    width: 30%;
 }
