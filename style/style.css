@@ -1,9 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 /*qui si trova le dimensioni e il colore del pattern (in modo ripetuto
 per evitare di inserire immagini*/
@@ -24,6 +21,23 @@ per evitare di inserire immagini*/
     margin-left: 5px;
 }
 
-main{
-    background-color: white;
+#scrittaIntroduzione{
+    font-size:xx-large;
+}
+#scrittAzzurra{
+    color: rgb(99, 209, 209);
+}
+#scrittaGrigia{
+    color: gray;
+}
+#scrittaData{
+    font-size: small;
+    color: gray;
+}
+
+section #img1{
+    width: 800px;
+}
+section #img2{
+    width: 684px;
 }
