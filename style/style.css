@@ -21,6 +21,13 @@ per evitare di inserire immagini*/
     margin-left: 5px;
 }
 
+h1{
+    margin-bottom: 1px;
+}
+p{
+    margin: 1px;
+}
+
 #scrittaIntroduzione{
     font-size:xx-large;
 }
@@ -36,8 +43,14 @@ per evitare di inserire immagini*/
 }
 
 section #img1{
+    margin-top: 12px;
     width: 800px;
 }
 section #img2{
+     margin-top: 12px;
     width: 684px;
+}
+
+#photoDescription{
+    font-size: small;
 }
